@@ -1,0 +1,22 @@
+
+add_filter( 'gettext', 'change_woocommerce_return_to_shop_text', 20, 3 );
+
+function change_woocommerce_return_to_shop_text( $translated_text, $text, $domain ) {
+
+        switch ( $translated_text ) {
+
+            case 'Return to shop' :
+
+                $translated_text = __( 'Back to home', 'woocommerce' );
+                break;
+
+        }
+
+    return $translated_text;
+}
+
+function store_mall_wc_empty_cart_redirect_url() {
+        $url = '/landing-page'; // change this link to your need
+        return esc_url( $url );
+}
+add_filter( 'woocommerce_return_to_shop_redirect', 'store_mall_wc_empty_cart_redirect_url' );

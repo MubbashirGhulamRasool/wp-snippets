@@ -1,0 +1,424 @@
+.woocommerce-product .gallery__image .img{
+	text-align: center;
+	max-width: 1280px;
+	width: 100%;
+}
+
+.Uheading{
+   
+text-decoration: underline;
+ 
+-webkit-text-decoration-color: #E60000;
+-webkit-text-decoration-thickness: 3px;
+ text-decoration-color: #E60000;
+	text-decoration-thickness: 4px;
+
+}
+
+.ast-woocommerce-container{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.woocommerce div.product .related.products {
+    display: none;
+}
+
+.buttonizer-button-0-0-3{
+	background-color: #E60000 !important;
+}
+.woocommerce-loop-category__title{
+	color:white !important;
+	background-color: #E60000 !important;
+	margin-bottom:-75px !important;
+border-radius: 15px;
+	
+}
+.count{
+	color: #ffff !important;
+}
+
+.woocommerce-notices-wrapper{
+	display: none;
+}
+
+.woocommerce-thankyou-order-received{
+	color:green;
+	font-size:18px;
+	font-weight:600;
+}
+
+
+#tm-extra-product-options-fields {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.yith-wcbk-form-section-duration{
+	display:none;
+}
+
+.yith-booking--simple-style .yith-wcbk-booking-form .yith-wcbk-booking-form__label {
+    font-weight: 700;
+    font-size: 14px;
+    margin: 5px 0 2px 0;
+}
+
+.price{
+	display:none;
+}
+
+.account-bookings-table{
+	display:none;
+}
+
+.yith-wcbk-booking-form-message{
+	display: none;
+}
+
+
+.ViewPicsButton
+{
+margin-bottom: 10px !important;
+	width:90% !important;
+		background-color:#DC3031 !important;
+}
+
+ .DescriptionButton
+{
+	padding: 10px 10px 10px 10px !important;
+	width:90% !important;
+	background-color:#E6BF00 !important;
+}
+
+@media (max-width: 767px){
+    
+.popupaoc-link{
+padding: 10px 87px 10px 87px !important;
+}
+}
+
+.add_to_cart_button
+{
+	width:90% !important;
+}
+
+/* .term-59 .add_to_cart_button
+{
+	width:90% !important;
+} */
+.optional{
+	display:none;
+}
+
+.size-woocommerce_thumbnail{
+	border-radius:25px !important;
+	height:250px !important;
+}
+.product_title{
+	color:black !important;
+}
+
+.flex-viewport
+{
+		border-radius:25px !important;
+}
+.variation-To{
+	display:none !important;
+}
+
+.variation-Duration{
+	display:none !important;
+}
+
+@media (max-width: 767px){
+    
+.elementor-element.elementor-products-grid ul.products{ 
+    display:inline !important; 
+}
+    
+.elementor-element .elementor-wc-products .woocommerce[class*=columns-] ul.products li.product { 
+margin: 20px !important;
+}
+}
+/* 
+.elementor-10375 .elementor-element.elementor-element-60a0906.elementor-wc-products ul.products li.product
+{
+		border-radius:25px !important;
+} */
+
+
+
+
+
+.woocommerce-loop-product__title{
+    color: Black !important;
+}
+
+.add_to_cart_button{
+    width:100%;
+    background-color: #26A644 !important;
+        border-radius: 5px !important;
+    font-size: 17px !important;
+    
+}
+
+.popupaoc-button {
+    width: 100%;
+    margin-bottom: 16px;
+    background: #E60000; !important;
+    color: white !important;
+        border-radius: 5px !important;
+    font-size: 17px !important;
+}
+
+.ast-article-single a a{
+    padding: 13px 30px;
+    border-radius: 5px;
+    color: white;
+    background-color: #E6BF00 !important;
+    font-size: 17px !important;
+    
+}
+
+
+products archive
+.woocommerce-loop-product__title{
+    color: Black !important;
+    font-size:24px !important;
+    margin-bottom: 10px !important;
+}
+
+.add_to_cart_button{
+    width: 90%;
+    background-color: #26A644 !important;
+        border-radius: 5px !important;
+    font-size: 17px !important;
+    
+}
+
+.popupaoc-button {
+    width:90%;
+    margin-bottom: 16px;
+    background: #E60000; !important;
+    color: white !important;
+        border-radius: 5px !important;
+    font-size: 17px !important;
+}
+
+.popupaoc-link{
+    
+    padding:13px 88px !important;
+    border-radius: 5px;
+    color: white;
+    background: #E6BF00 !important;
+    font-size: 17px !important;
+    
+}
+.size-woocommerce_thumbnail
+{
+    border-radius: 15px !important;
+    margin-bottom: 10px !important;
+}
+
+
+
+Products
+
+.woocommerce-loop-product__title{
+    color: Black !important;
+    font-size:24px !important;
+    margin-bottom: 10px !important;
+}
+
+.add_to_cart_button{
+    width: 90%;
+    background-color: #26A644 !important;
+        border-radius: 5px !important;
+    font-size: 17px !important;
+    
+}
+
+.popupaoc-button {
+    width:90%;
+    margin-bottom: 16px;
+    background: #E60000; !important;
+    color: white !important;
+        border-radius: 5px !important;
+    font-size: 17px !important;
+}
+
+.popupaoc-link{
+    
+    padding:13px 113px !important;
+    border-radius: 5px;
+    color: white;
+    background: #E6BF00 !important;
+    font-size: 17px !important;
+    
+}
+.size-woocommerce_thumbnail
+{
+    border-radius: 15px !important;
+    margin-bottom: 10px !important;
+}
+
+battery bar
+
+
+
+
+
+
+
+
+
+
+
+
+.woocommerce-product .gallery__image .img{
+    text-align: center;
+    max-width: 1280px;
+    width: 100%;
+}
+
+.Uheading{
+   
+text-decoration: underline;
+ 
+-webkit-text-decoration-color: #E60000;
+-webkit-text-decoration-thickness: 3px;
+ text-decoration-color: #E60000;
+    text-decoration-thickness: 4px;
+
+}
+
+.ast-woocommerce-container{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.woocommerce div.product .related.products {
+    display: none;
+}
+
+.buttonizer-button-0-0-3{
+    background-color: #E60000 !important;
+}
+.woocommerce-loop-category__title{
+    color:white !important;
+    background-color: #E60000 !important;
+    margin-bottom:-75px !important;
+border-radius: 15px;
+    
+}
+.count{
+    color: #ffff !important;
+}
+
+.woocommerce-notices-wrapper{
+    display: none;
+}
+
+.woocommerce-thankyou-order-received{
+    color:green;
+    font-size:18px;
+    font-weight:600;
+}
+
+
+#tm-extra-product-options-fields {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.yith-wcbk-form-section-duration{
+    display:none;
+}
+
+.yith-booking--simple-style .yith-wcbk-booking-form .yith-wcbk-booking-form__label {
+    font-weight: 700;
+    font-size: 14px;
+    margin: 5px 0 2px 0;
+}
+
+.price{
+    display:none;
+}
+
+.account-bookings-table{
+    display:none;
+}
+
+.yith-wcbk-booking-form-message{
+    display: none;
+}
+
+
+.ViewPicsButton
+{
+margin-bottom: 10px !important;
+    width:90% !important;
+        background-color:#DC3031 !important;
+}
+
+ .DescriptionButton
+{
+    padding: 10px 10px 10px 10px !important;
+    width:90% !important;
+    background-color:#E6BF00 !important;
+}
+
+@media (max-width: 767px){
+    
+.popupaoc-link{
+padding: 10px 87px 10px 87px !important;
+}
+}
+
+.add_to_cart_button
+{
+    width:90% !important;
+}
+
+/* .term-59 .add_to_cart_button
+{
+    width:90% !important;
+} */
+.optional{
+    display:none;
+}
+
+.size-woocommerce_thumbnail{
+    border-radius:25px !important;
+    height:250px !important;
+}
+.product_title{
+    color:black !important;
+}
+
+.flex-viewport
+{
+        border-radius:25px !important;
+}
+.variation-To{
+    display:none !important;
+}
+
+.variation-Duration{
+    display:none !important;
+}
+
+@media (max-width: 767px){
+    
+.elementor-element.elementor-products-grid ul.products{ 
+    display:inline !important; 
+}
+    
+.elementor-element .elementor-wc-products .woocommerce[class*=columns-] ul.products li.product { 
+margin: 20px !important;
+}
+}
+/* 
+.elementor-10375 .elementor-element.elementor-element-60a0906.elementor-wc-products ul.products li.product
+{
+        border-radius:25px !important;
+} */

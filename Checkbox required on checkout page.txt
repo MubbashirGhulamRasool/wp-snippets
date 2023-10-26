@@ -1,0 +1,17 @@
+add_action( 'woocommerce_review_order_before_submit', 'add_privacy_checkbox', 9 );
+function add_privacy_checkbox() {
+woocommerce_form_field( 'privacy_policy', array(
+'type' => 'checkbox',
+'class' => array('form-row privacy'),
+'label_class' => array('woocommerce-form__label woocommerce-form__label-for-checkbox checkbox'),
+'input_class' => array('woocommerce-form__input woocommerce-form__input-checkbox input-checkbox'),
+'required' => true,
+'label' => 'I\'ve read and accept the <a href="http://sdmotors.visech.com/privacy-policy" target="_blank">Privacy Policy</a>',
+));
+}
+add_action( 'woocommerce_checkout_process', 'privacy_checkbox_error_message' );
+function privacy_checkbox_error_message() {
+if ( ! (int) isset( $_POST['privacy_policy'] ) ) {
+wc_add_notice( __( 'You have to agree to our privacy policy in order to proceed' ), 'error' );
+}
+}

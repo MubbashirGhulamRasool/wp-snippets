@@ -1,0 +1,15 @@
+//Catelog
+
+add_filter( 'woocommerce_get_price_html', 'bbloomer_add_price_prefix', 99, 2 );
+  
+function bbloomer_add_price_prefix( $price, $product ){
+    $price = $price .' Per Day';
+    return $price;
+}
+
+//single page 
+add_filter( 'woocommerce_get_price_suffix', 'bbloomer_add_price_suffix', 99, 4 );  
+function bbloomer_add_price_suffix( $html, $product, $price, $qty )
+{    
+$html .= ' per day';    return $html;
+}

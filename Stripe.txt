@@ -1,0 +1,43 @@
+Login
+
+Go to dashboad 
+
+click on woocommerce setting 
+
+click on payments 
+
+click on stripe
+
+remove the checkbox 
+
+click On Edit account keys button
+
+enter your live keys here then click on save live keys button
+
+then click on save changes
+
+
+done!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pk_test_TYooMQauvdEDq54NiTphI7jx
+
+sk_test_4eC39HqLyjWDarjtT1zdp7dc

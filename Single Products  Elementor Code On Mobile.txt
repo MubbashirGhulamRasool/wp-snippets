@@ -1,0 +1,11 @@
+@media (max-width: 767px){
+    
+.elementor-element.elementor-products-grid ul.products{ 
+    display:inline !important; 
+}
+    
+.elementor-element .elementor-wc-products .woocommerce[class*=columns-] ul.products li.product { 
+margin: 20px !important;
+}
+    
+}

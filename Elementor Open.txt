@@ -1,0 +1,5 @@
+# BEGIN Line too long fix
+<IfModule mod_substitute.c>
+SubstituteMaxLineLength 10M
+</IfModule>
+# END Line too long fix

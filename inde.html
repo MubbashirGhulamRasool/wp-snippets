@@ -1,0 +1,121 @@
+/* Add your JavaScript code here.
+
+If you are using the jQuery library, then don't forget to wrap your code inside jQuery.ready() as follows:
+
+jQuery(document).ready(function( $ ){
+	// Your code in here
+});
+
+--
+
+If you want to link a JavaScript file that resides on another server (similar to
+<script src="https://example.com/your-js-file.js"></script>), then please use
+the "Add HTML Code" page, as this is a HTML code that links a JavaScript file.
+
+End of comment */ 
+
+
+
+jQuery(document).ready(function( $ ){
+	
+	$("input[name='wpforms[fields][3]']").change(function() {
+		var selectedVehicle = $(this).val();
+
+
+		
+		// URL to fetch data from
+		var apiUrl = "https://lee4rentalsllc.com/wp-json/custom/v1/wpforms-submissions?form_id=638";
+
+		// Make the AJAX request
+		$.ajax({
+			url: apiUrl,
+			method: "GET",
+			dataType: "json",
+			success: function(data) {
+				// Handle the fetched data
+				displayData(data);
+			},
+			error: function(error) {
+				console.error("Error fetching data:", error);
+			}
+		});
+		
+		
+
+		
+		
+		
+		
+		
+
+		// Function to display the fetched data
+		function displayData(data) {
+
+			var dataContainer = $("#data-container");
+			//         console.log(data);
+			// Clear previous data
+			dataContainer.empty();
+
+			// Loop through each submission and display relevant information
+			data.forEach(function(submission) {
+				
+				
+				var submissionHTML = '<div class="submission">';
+					submissionHTML += '<p><strong>ID:</strong> ' + submission.entry_id + '</p>';
+					submissionHTML += '<p><strong>Fields 1:</strong> ' + submission.fields[0]['value'] + '</p>';
+					submissionHTML += '<p><strong>Fields 2:</strong> ' + submission.fields[1]['days'] + '</p>';
+					submissionHTML += '<p><strong>Fields 3:</strong> ' + submission.fields[2]['value'] + '</p>';
+					// Add more fields as needed
+				submissionHTML += '</div>';
+				dataContainer.append(submissionHTML);
+				
+				var vehicle = submission.fields[0]['value'];
+				var bookngDays = submission.fields[1]['value'];
+				var days = submission.fields[2]['value'];
+				
+				console.log("vehicle:", vehicle);
+				console.log("bookngDays:", bookngDays);
+				console.log("days:", days);
+				
+				if(selectedVehicle == vehicle){
+					alert(selectedVehicle +" "+vehicle);
+					
+
+					var dateParts = days.split("/"); // Split the string into an array of parts [day, month, year]
+
+					// Parse the parts into integers
+					var month = parseInt(dateParts[0], 10);
+					var day = parseInt(dateParts[1], 10);
+					var year = parseInt(dateParts[2], 10);
+					
+					console.log("Month:", month);
+					console.log("Day:", day);
+					console.log("Year:", year);
+					
+					if(!month == ""){	
+						
+						var monthNumber = month;
+						var monthNames = [
+						"January", "February", "March", "April", "May", "June", 
+						"July", "August", "September", "October", "November", "December"
+						];
+						var monthName = monthNames[monthNumber - 1]; // Subtract 1 because array index starts at 0
+						
+						$("span.flatpickr-day[aria-label='"+monthName+" "+day+", "+ year+"']").addClass("flatpickr-disabled");
+						
+						
+					}
+				}
+				
+			});
+		}
+		
+		
+		
+		
+		
+	});
+	
+	
+	
+});

@@ -1,0 +1,1256 @@
+visech
+Requirements
+
+a65KzmC#dbQFqqjr9f*%bWSD
+
+
+https://pdf.ac/2bguCc
+
+https://pdf.ac/2bguCc
+
+MAMA'S PLACE ROCK SHOP
+Mama's Place Rock Shop
+
+ElevateU Transformational Coaching
+
+Moresea2022@
+
+{admin_email}
+
+tyrab360@gmail.com
+
+global $wpdb;
+
+// Custom SQL query
+$query = "SELECT * FROM wp_wpforms_entries";
+
+$results = $wpdb->get_results($query);
+
+if ($results) {
+    foreach ($results as $result) {
+        // Process and display data
+        echo "CarsName: {$result->fields["3"]["value"]}";
+    }
+} else {
+    echo "No data found.";
+}
+
+
+SELECT fields FROM `wp_wpforms_entries`;
+
+
+
+{"3":{"name":"Choose a car","value":"HYUNDAI SANTA FE","value_raw":"HYUNDAI SANTA FE","id":3,"type":"radio","image":"https:\/\/lee4rentalsllc.com\/wp-content\/uploads\/2023\/08\/HYUNDAI-SANTA-FE-1.jpg"},"5":{"name":"I would like to schedule...","value":"Week - &#36; 500.00","value_choice":"Week","value_raw":"2","amount":"500.00","amount_raw":"500.00","currency":"USD","image":"https:\/\/lee4rentalsllc.com\/wp-content\/uploads\/2023\/08\/Week-1.jpg","id":5,"type":"payment-multiple","visible":true},"6":{"name":"Date","value":"08\/08\/2023","id":6,"type":"date-time","date":"08\/08\/2023","time":"","unix":1691452800,"visible":true},"8":{"name":"Time","value":"12:00 PM","id":8,"type":"date-time","date":"","time":"12:00 PM","unix":"","visible":true},"19":{"name":"Deposit","value":"&#36; 150.00","amount":"150.00","amount_raw":"150.00","currency":"USD","id":19,"type":"payment-single","visible":true},"18":{"name":"Total","value":"&#36; 650.00","amount":"650.00","amount_raw":"650.00","id":18,"type":"payment-total","visible":true},"10":{"name":"First Name","value":"Cynrhia","id":10,"type":"name","first":"","middle":"","last":""},"13":{"name":"Email","value":"xhjenejwbuw@gmail.com","id":13,"type":"email"},"12":{"name":"Last Name","value":"Gauheb","id":12,"type":"name","first":"","middle":"","last":""},"14":{"name":"Phone","value":"+19048576629","id":14,"type":"phone"},"27":{"name":"Name","value":"Vhjjjd Gijnjs","id":27,"type":"name","first":"Vhjjjd","middle":"","last":"Gijnjs"}}
+
+
+{"3":{"name":"Choose a car","value":"FORD","value_raw":"FORD","id":3,"type":"radio","image":"https:\/\/lee4rentalsllc.com\/wp-content\/uploads\/2023\/08\/FORD-FUSION.jpg"},"5":{"name":"I would like to schedule...","value":"Week - &#36; 500.00","value_choice":"Week","value_raw":"2","amount":"500.00","amount_raw":"500.00","currency":"USD","image":"https:\/\/lee4rentalsllc.com\/wp-content\/uploads\/2023\/08\/Week-1.jpg","id":5,"type":"payment-multiple","visible":true},"6":{"name":"Date","value":"08\/11\/2023","id":6,"type":"date-time","date":"08\/11\/2023","time":"","unix":1691712000,"visible":true},"8":{"name":"Time","value":"11:00 PM","id":8,"type":"date-time","date":"","time":"11:00 PM","unix":"","visible":true},"19":{"name":"Deposit","value":"&#36; 150.00","amount":"150.00","amount_raw":"150.00","currency":"USD","id":19,"type":"payment-single","visible":true},"18":{"name":"Total","value":"&#36; 650.00","amount":"650.00","amount_raw":"650.00","id":18,"type":"payment-total","visible":true},"10":{"name":"First Name","value":"jack","id":10,"type":"name","first":"","middle":"","last":""},"13":{"name":"Email","value":"john@gmail.com","id":13,"type":"email"},"12":{"name":"Last Name","value":"john","id":12,"type":"name","first":"","middle":"","last":""},"14":{"name":"Phone","value":"+254717723305","id":14,"type":"phone"},"30":{"name":"Select Payment Method","value":"Cash","value_raw":"Cash","id":30,"type":"radio"},"28":{"name":"Card Information","cardname":"","value":"","id":28,"type":"square","visible":false}}
+
+
+
+{"3":{"name":"Choose a car","value":"HYUNDAI SANTA FE","value_raw":"HYUNDAI SANTA FE","id":3,"type":"radio","image":"https:\/\/lee4rentalsllc.com\/wp-content\/uploads\/2023\/08\/HYUNDAI-SANTA-FE-1.jpg"},"5":{"name":"I would like to schedule...","value":"Week - &#36; 500.00","value_choice":"Week","value_raw":"2","amount":"500.00","amount_raw":"500.00","currency":"USD","image":"https:\/\/lee4rentalsllc.com\/wp-content\/uploads\/2023\/08\/Week-1.jpg","id":5,"type":"payment-multiple","visible":true},"6":{"name":"Date","value":"08\/24\/2023","id":6,"type":"date-time","date":"08\/24\/2023","time":"","unix":1692835200,"visible":true},"8":{"name":"Time","value":"1:00 AM","id":8,"type":"date-time","date":"","time":"1:00 AM","unix":"","visible":true},"19":{"name":"Deposit","value":"&#36; 150.00","amount":"150.00","amount_raw":"150.00","currency":"USD","id":19,"type":"payment-single","visible":true},"18":{"name":"Total","value":"&#36; 650.00","amount":"650.00","amount_raw":"650.00","id":18,"type":"payment-total","visible":true},"10":{"name":"First Name","value":"testing","id":10,"type":"name","first":"","middle":"","last":""},"13":{"name":"Email","value":"testing@testing.com","id":13,"type":"email"},"12":{"name":"Last Name","value":"testing","id":12,"type":"name","first":"","middle":"","last":""},"14":{"name":"Phone","value":"+923362447123","id":14,"type":"phone"},"30":{"name":"Select Payment Method","value":"Cash","value_raw":"Cash","id":30,"type":"radio"},"28":{"name":"Card Information","cardname":"","value":"","id":28,"type":"square","visible":false}}
+
+
+{"3":{"name":"Choose a car","value":"FORD","value_raw":"FORD","id":3,"type":"radio","image":"https:\/\/lee4rentalsllc.com\/wp-content\/uploads\/2023\/08\/FORD-FUSION.jpg"},"5":{"name":"I would like to schedule...","value":"2 Days - &#36; 170.00","value_choice":"2 Days","value_raw":"1","amount":"170.00","amount_raw":"170.00","currency":"USD","image":"https:\/\/lee4rentalsllc.com\/wp-content\/uploads\/2023\/08\/2-Days-1.jpg","id":5,"type":"payment-multiple","visible":true},"6":{"name":"Date","value":"08\/11\/2023","id":6,"type":"date-time","date":"08\/11\/2023","time":"","unix":1691712000,"visible":true},"8":{"name":"Time","value":"9:00 AM","id":8,"type":"date-time","date":"","time":"9:00 AM","unix":"","visible":true},"19":{"name":"Deposit","value":"&#36; 150.00","amount":"150.00","amount_raw":"150.00","currency":"USD","id":19,"type":"payment-single","visible":true},"18":{"name":"Total","value":"&#36; 320.00","amount":"320.00","amount_raw":"320.00","id":18,"type":"payment-total","visible":true},"10":{"name":"First Name","value":"Ben","id":10,"type":"name","first":"","middle":"","last":""},"13":{"name":"Email","value":"usamaoff796@gmail.com","id":13,"type":"email"},"12":{"name":"Last Name","value":"Ben","id":12,"type":"name","first":"","middle":"","last":""},"14":{"name":"Phone","value":"+928282829292","id":14,"type":"phone"},"30":{"name":"Select Payment Method","value":"Cash","value_raw":"Cash","id":30,"type":"radio"},"28":{"name":"Card Information","cardname":"","value":"","id":28,"type":"square","visible":false}}
+
+
+
+
+
+global $wpdb;
+
+// Custom SQL query
+$query = "SELECT fields FROM wp_wpforms_entries";
+
+$results = $wpdb->get_results($query);
+
+// $data = json_decode($results, true);
+
+// print $results;
+
+foreach ($results as $item) {
+//     $value = $item['value'];
+//  echo "CarsName: {$value->fields}";
+  
+//  echo $item;
+  
+//  $data = json_decode($item, true);
+  echo "CarsName: {$data->fields}";
+  
+}
+
+
+Publishable key
+pk_live_51KSPvvIe7mrDnaUwDIbNYbAPveKFuQ21kWlXzK1NZDY8YIZl8jhTarnJUO2QG8BC8KnfPTydGiawRx89De1N2VSV00nn8FolTp
+Secret key
+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
+
+chogogobonaire@gmail.com
+
+Domain Name: morantours.com
+password: moses@254
+
+Hi Hamza forward to you a document via your email and here is the log in details.
+Domain Name: morantours.com
+Login: muchariamoses15@gmail.com
+password: moses@254
+
+Any Damages Forfeit Deposit
+
+Beaches Turks & Caicos
+
+
+Group Travel
+
+
+https://mdelgado.dreamvacations.com/travel/cruises/Editorial.html?edType=Custom%20Page&pagename=destination-weddings
+
+
+Your Celebration Begin Here 
+
+
+gkourg.visech.com
+http://paylessautogroup.visech.com/
+
+http://dealer.visech.com/
+PASS: ol(NrRHOsFc9ppTYi9RP1wBj
+
+
+Dynamic Stability Control
+
+
+Hardtop
+
+
+
+My mother and maternal grandmother died in the hands of the hospital from malpractice and negligence. This is what inspired me to become a nurse. I want to partake in healing patients with proper treatment and medication. Thus, despite the many obstacles it took for me to get here to become a nurse, the journey was worth it. 
+
+I was a certified nursing assistant (CNA) for 8 years and a licensed practical nurse (LPN) for 6 years. Over the course of time, I tried to go back to school to become a registered nurse (RN). Unfortunately, I could not finish just 3 months shy of graduation. But God had other plans for me. I blew up overnight on TikTok teaching thousands of women to heal and advocate for themselves in the doctor's office. I love what I do, and I completely put my trust in God for my future steps in life.
+https://rcautovermietung.de/
+
+a:14:{i:0;s:34:"advanced-custom-fields-pro/acf.php";i:1;s:51:"all-in-one-wp-migration/all-in-one-wp-migration.php";i:2;s:27:"autoptimize/autoptimize.php";i:3;s:33:"classic-editor/classic-editor.php";i:4;s:43:"custom-post-type-ui/custom-post-type-ui.php";i:5;s:43:"ele-custom-skin-pro/ele-custom-skin-pro.php";i:6;s:35:"ele-custom-skin/ele-custom-skin.php";i:7;s:31:"elementor-pro/elementor-pro.php";i:8;s:23:"elementor/elementor.php";i:9;s:45:"enable-media-replace/enable-media-replace.php";i:10;s:41:"http-https-remover/http-https-remover.php";i:11;s:49:"mcw-fullpage-elementor/mcw-fullpage-elementor.php";i:12;s:37:"post-types-order/post-types-order.php";i:13;s:29:"wp-mail-smtp/wp_mail_smtp.php";}
+
+maintenance old website name
+logo link
+cart
+Slider button color
+Slider Button Link
+Slider color
+images
+buy now
+footer link
+direct checkout
+cart remover
+link on email and phone
+
+Footer ko set kro
+
+Rentals Adventures
+
+Travel/Nomadic Lifestyle/Location Freedom
+
+
+https://lee4rentalsllc.com/wp-admin
+admin
+Pass12345#
+
+
+PACKAGES
+
+VP Exotic Car Rental
+
+<script class="eg-widgets-script" src="https://affiliates.expediagroup.com/products/widgets/assets/eg-widgets.js"></script>
+slider height 
+capital letter
+Services Page Banner
+contact us page
+
+https://ecommerce.visech.com/
+https://limitlessrentals.visech.com 
+https://wp.visech.com 
+http://wolvo.visech.com/
+https://special.visech.com/
+https://tegorentals.visech.com/
+https://naveed.visech.com/
+https://dealer.visech.com/
+http://gemsautocraft.visech.com/
+https://niftyfinancing.visech.com/
+https://hollywoodrentals.visech.com/
+https://dealers.visech.com/
+http://traveling.visech.com/
+https://drake.visech.com/
+https://expectgreatcruises.visech.com/
+https://montrelluxuryvacations.visech.com 
+https://reautollc.visech.com  
+https://vacaybuddies.visech.com/
+https://infinitygrouptravel.visech.com/
+https://palmettomash.visech.com/
+https://globaltravel.visech.com/
+
+http://weareglobetrotters.visech.com/
+http://enjoytravelingtheglobe.visech.com/
+https://travelinggnomervrentals.visech.com/
+http://motosruta.visech.com/
+http://liberty.visech.com/
+http://wordpress.visech.com/
+https://media.visech.com/
+explorify.visech.com  
+http://varun.visech.com/
+http://gaming.visech.com/
+http://wallet.visech.com/
+http://nft.visech.com/
+http://jgs.visech.com/
+http://realestate.visech.com/
+http://libertymoonbedding.visech.com/
+
+https://we.tl/t-MqCPunlkl6
+MAMA SPLACE ROCK SHOP
+
+info@globalkeyreps.com
+Pass1234!@#$
+
+form@globalkeyreps.com
+MouseWheel Smooth Scroll
+CLEANING
+
+HEARTH SIMPLIFIES THE PROCESS
+
+
+
+
+
+
+
+https://elevate.visech.com/
+https://beautynailsoflexing.com/
+https://wp.visech.com/
+
+
+Florida
+FLORIDA
+
+
+team@globalkeyreps.com,grace@globalkeyreps
+
+ABOUT NURSE CHERRY 
+
+{admin_email}
+
+GET LATEST UPDATES
+Copyright &copy; 2022 Mackay Entertainment | Website Designed &amp; Developed By <a href="https://visech.com" target="_blank" rel="noopener">VISECH</a>
+
+Timeline required for the additional features:
+
+1) learn section
+2) Car Earning Functionality building and integrations
+3) deposit Requirement
+4) Checkout requirement: Drivers license number, Insurance policy Number
+
+
+These added functionalities will be added
+
+Ismei yea functionalities add krdega kl sbha lazmi
+Kl he deadline iski
+
+  
+Wedding & Honeymoon
+mdelgado74@hotmail.com
+
+https://preview.themeforest.net/item/ronneby-highperformance-wordpress-theme/full_screen_preview/11776839
+http://preview.themeforest.net/item/book-your-travel-online-booking-wordpress-theme/full_screen_preview/5632266
+https://rnbtheme.com/elementor-sixtieth/
+
+https://transworldmotors.com/
+
+
+Unleash your sense of adventure and experience the thrill of horseback riding on the stunning beaches of Ocho Rios, Jamaica. Feel the power and grace of these magnificent creatures as you explore the pristine shoreline and immerse yourself in the
+beauty of the Caribbean. Whether you're a seasoned rider or a first-time equestrian, our experienced guides will ensure a safe and enjoyable journey. Saddle up and create lifelong memories as you gallop through the waves and take in the breathtaking coastal views. Book your horseback riding adventure now and get ready to make a splash on the shores of Ocho Rios.
+
+
+
+
+
+tel:+1(786) 347 1777
+
+
+GKkxiwfhEJ!7
+
+https://todolistsafari.ug/
+https://paradisepassage.com/
+
+
+
+Your Stay Your Way
+
+
+Jarrod.bampfield@outlook.com
+s@dierose20
+
+{admin_email}
+
+
+Axis Africa
+
+ns1045.ui-dns.org
+ns1045.ui-dns.de
+ns1045.ui-dns.biz
+ns1045.ui-dns.com
+
+
+ns09.domaincontrol.com
+ns10.domaincontrol.com
+
+luana@suncoastrentalcar.com
+
+http://lmluxrentals.visech.com/
+
+New Passwort: tuanatel1A.
+
+#0700DD
+#00F2FF
+
+Your Journey To Jamaica Starts With Us
+
+
+rose_travel_eg
+iyNlm[9F0@N0
+
+
+
+info@santos.com
+2000 Brett Road New Castle,DE 19720
+
+
+
+Marrakech Experiences
+
+For Trip Consultation:
+
+The price is 159 per hour - The prices are just for you.
+Private consultation with Anastasiya to help you plan your perfect trip to Italy.
+
+Customized Itinerary
+Your trip is fully planned based on your unique interests and preferences.
+
+Concierge Service
+The price is 459 for the first two days and then its 149 per each additional day
+Your trip is completely custom-designed, planned, and booked.
+
+https://getyourmarrakechguide.com/wp-content/themes/traveler/v2/css/bootstrap.min.css
+
+
+
+Escape The Ordinary And Create Lasting Memories With Us 
+
+Our Recommendations
+
+<img src="https://visech.com/wp-content/uploads/2023/05/00001.jpg" width="400" height="400"><br>
+<h2>Live Chat</h2><br>
+<p>Let's Talk! Share your design requirements with one of our designers to get a perfect logo that you envisioned for</p><br>
+<a href="https://visech.com/product/basic-plan/" class="button-design">View Portfolio</a>
+<br>
+
+AdminUser
+Pass1234#
+
+https://ecommerce.visech.com/
+
+
+kevin lassiter
+troy lassiter jr
+
+Thanks for contacting us! We will be in touch with you shortly.
+
+CEO
+
+
+
+https://dev.iccsllc.com/wp-admin
+marketing@phdigital.ca
+phmarketing1
+
+
+OUR CLIENTS OPINION ABOUT US
+
+http://drake.visech.com/
+
+Itinerary
+
+1.  Landing page:
+Need to add a button for Home
+11. I could not change this background photo: please advise How
+14. Need to have a write or light Background : not dark blue, possibly light Grey like Selah 
+Also I How can I change the colour:
+16. Facebook Feed: how we incorporate our Facebook page ( as Selah has done and/or as we have done on our current website)
+17. Insurance page: was not able to edit it or add text or photos
+19. How can I change the fonts: in order not to look exactly like Selah; please suggest fonts
+
+42
+https://www.google.com/maps/place/42+W+38th+St,+New+York,+NY+10018,+USA/data=!4m2!3m1!1s0x89c259aa3f451607:0xf7e5f5a338462422?sa=X&ved=2ahUKEwjDjc_g_uX8AhU0k4kEHZ0yCtAQ8gF6BAgNEAI
+
+# START YOAST BLOCK
+# ---------------------------
+User-agent: *
+Allow:
+
+Sitemap: https://ecolemontessorimontreal.com/sitemap_index.xml
+# ---------------------------
+# END YOAST BLOCK
+
+
+Interior Contractor
+
+
+Copyright &copy; 2022 Mackay Entertainment | Website Designed &amp; Developed By <a href="https://visech.com" target="_blank" rel="noopener">VISECH</a>
+
+
+user_id=current
+758 5th Avenue In The Heart Of Nyc
+
+[948]+[955]+[956]+[949]+[957]+[950]+[951]+[958]+[953]+[954]
+
+I Have Done Working on Search Console issues
+1 Worked On (Crawled - currently not indexed) Started
+2 Not found (404)
+3 Page with redirect
+
+
+https://twirladmin.com/employee-serious-health-condition/
+icreon.com/en
+
+
+Qm%MJYf11thM1XVhcSaLtUGO
+
+Qm%MJYf11thM1XVhSaLtUGO
+
+
+
+jQuery(document).ready(function($) {
+  var copyValueField = $('#field_5bzeh');
+  copyValueField.on('keyup', function() {
+    var valueToCopy = $(this).val();
+    $('#field_ej72g').val(valueToCopy);
+  });
+});
+
+You wish to let go of your video games, consoles and accessories?
+Please fill out the form below and attach photos and documents if applicable.
+We will provide you with a free quote shortly!
+
+Page speed booster
+page speed optimizer pro
+
+4:15:14
+http://carrental.visech.com/
+
+To fully transform your trading skills, confidence, and strategy competence, we require at least one to two hour a day of dedication.
+<br>
+The best thing is, 90% of this hour a day can be done through your headphones, learning. You can listen to podcasts, watch instructional videos, and read about the latest market trends.
+<br>
+Then, practicing and reviewing what you've learned becomes a lifestyle if you want to progress. We recommend dedicating an additional 3-4 hours a week to trading practice and reflection.
+<br>
+By consistently putting in the time and effort, you'll develop the skills and knowledge needed to make smart trading decisions and see results.
+
+
+
+It is important to only risk money that you can afford to lose, and to use stop-loss orders to limit potential losses. 
+<br>
+We help you conduct thorough research and analysis, use technical and fundamental indicators to make informed decisions.
+<br>
+We help you develop a trading plan and stick to it, and use self-control and discipline to avoid making rash decisions. Additionally, keeping a trading journal and regularly reviewing their performance can help traders identify areas for improvement and maintain discipline.
+
+
+
+
+
+
+https://drhanisinno.com/procedures/before-after/eyelid-surgery/
+
+BOOSTER SEO & IMAGE OPTIMIZER
+Booster: Page Speed Optimizer
+Speedimize
+Thunder Page Speed Optimizer
+ROAR: Page Speed Booster
+Swish: Page Speed Booster
+Swift ‑ Page Speed Optimizer
+Pasilobus Turbo Speed Booster
+
+
+
+
+Deleted Apps
+AdRoll Advertising & Marketing
+GoDataFeed Shopping Feeds
+Data Feed Watch Shopping Feeds
+Speedster Page Speed Optimizer
+fastshop
+Booster: Page Speed Optimizer
+
+
+
+TinyIMG: Speed & SEO (Installed)
+
+Please allow up to 7 days for speed score to be updated in Shopify, it's not instant. If you do not see increase in Shopify speed score after 7 days, please contact our customer support and we will check your score.
+
+Plug in Speed(Installed)
+
+{{ '//cdn.shopify.com/s/files/1/0194/1736/6592/t/1/assets/booster-page-speed-optimizer.js?23' | script_tag }}
+
+<script data-spm="{{ shop.metafields.speedimize.hashKey }}|{{ theme.id }}" src="{{ 'speedimize.js' | asset_url }}"></script>
+{{ 'crucial-commerce-page-speed.js' | asset_url | script_tag }}
+
+
+https://docs.google.com/spreadsheets/d/1TRwo_GOssO5lcgbk21yNr4js3EULPF6fSunS4-8vvZA/edit#gid=1013494734
+
+https://turo.com/us/en/drivers/2981011
+
+https://femicess.com/pages/contact
+Price Auto Rentals
+
+SIGNATURE CAR RENTALSS
+
+
+“The quality of cleaning is excellent. They are dependable. A morning appointment is very important to me and they always keep that time frame. I also feel very confident that my home is secure during their visits. Merry Maids is not inexpensive but the quality of service and peace of mind is worth the extra expense I may pay. ”
+
+
+
+
+I hired this exterior cleaning company Home Detailz Exterior Cleaning to clean my gutters and pressure wash my driveway, and they did an amazing job! The team was professional, punctual, and thorough. My home looks so much better now, and I highly recommend their services.
+
+
+DISCLAIMER
+
+
+I Have Done All These pages on mobile.
+fixed all bugs On Mobile And both language English And French
+
+
+https://drhanisinno.com/procedures/face/chin-liposuction/
+https://drhanisinno.com/procedures/before-after/face-lift/
+https://drhanisinno.com/procedures/before-after/facial-implants/
+https://drhanisinno.com/procedures/before-after/rhinoplasty/
+https://drhanisinno.com/procedures/before-after/eyelid-surgery/
+
+
+1:17:50
+14:51
+:45:53
+
+
+
+<script type="text/javascript">
+    var Outdoorsy = Outdoorsy || {};
+    Outdoorsy.color = "1b4a8f";
+    (function() {
+      var script = document.createElement("script");
+      script.src = "https://d3cuf6g1arkgx6.cloudfront.net/sdk/wheelbase.min.js";
+      script.async = true;
+      var entry = document.getElementsByTagName("script")[0];
+      entry.parentNode.insertBefore(script, entry);
+    })();
+</script>
+
+
+<div id="outdoorsy-book-now-container" data-owner="930950" data-newfilters="false" data-calendar= ;data-color="B96237" </div>
+
+
+Prime Mover, Trailer Truck, And Mini Turcks
+
+https://www.ecabroker.com/
+    
+SiteGround Security
+    
+SiteGround Optimizer
+
+Book A Rv
+
+$7170 Three Person
+$9560 Four Person
+
+thunder page speed optimizer
+
+BOOSTER SEO & IMAGE OPTIMIZER
+Booster: Page Speed Optimizer
+
+Fastshop Optimize All Media!
+
+
+Embury Home page design,font family,Color code and mobile responsive.
+Apr 26 Time
+3:09:41
+0:17:33
+36:20
+
+
+Bromont Speed optimization
+Apr 26 Time
+1:50:47
+
+Improve website speed.
+If I'll more speed up so the error will be come on (louer une van page) vehicles will not load properly on mobile. 
+
+
+PH Search Console issues
+Apr 28 Time
+2:15:51
+13:07
+
+I have done working on the following Search Console issues. 
+
+1: Crawled - currently not indexed.
+2: Not found (404).
+3: Page with redirect.
+4: Alternate page with proper canonical tag.
+
+Progress Started On All Issues.
+
+
+
+https://visech.com/login-visech/
+
+
+I have Done Please Check it Out.
+
+https://emburyco.com/home-4/ 
+43.703882 |-79.627140| 6577 Northwest Drive Mississauga Ontario L4V1L1
+
+retromtlgames@gmail.com
+
+https://dev.iccsllc.com/wp-admin
+marketing@phdigital.ca
+phmarketing1
+
+marketing@phdigital.ca
+phmarketing1
+
+https://ecolemontessorimontreal.com/login-montessori/
+hamzadeveloper123@gmail.com
+Pass1234#
+
+
+https://dev.iccsllc.com/infrastructure-cloud/
+
+1982 Mercedes-benz Sl-class
+
+Tesla Model X
+
+Ferrari F8 Spider
+
+Porsche 911 Turbo S
+
+Black Mercedes-benz Amg G63
+
+Lamborghini Aventador Lp 740 S Roadster
+
+Orange Lamborghini Urus
+https://www.dutchtrips.nl/https://privatedaytoursamsterdam.com/
+Gray Lamborghini Huracan Spyder
+
+2022 Rolls Royce Cullinan - Black Badge
+
+marketing@phdigital.ca
+marketing@phdigital.ca
+
+retromtlgames@gmail.com
+
+futuristiclothing24@gmail.com
+
+https://falconcarrental.com/
+
+
+Select It LA
+
+Structure Date testing 
+
+1982 MERCEDES-BENZ SL-CLASS
+
+
+/* .icon {
+  color: #ffffff !important;
+} */
+
+
+# START YOAST BLOCK
+# ---------------------------
+User-agent: *
+Disallow:
+
+Sitemap: https://ecolemontessorimontreal.com/sitemap_index.xml
+# ---------------------------
+# END YOAST BLOCK
+
+Rentalcars.com
+Carrentals.com
+
+Waqar Raiss
+0345 2775433
+
+
+
+.header {
+  background-color: #a98c4c !important;
+  padding: 0px 50px !important;
+  margin-bottom: -15px !important;
+}
+.list-menu__item {
+  /* color: #ffffff !important; */
+  font-size: 16px !important;
+  font-family: Roboto !important;
+  font-weight: 600 !important;
+}
+.header__active-menu-item {
+  text-decoration: none !important;
+}
+
+
+
+.footer__content-bottom {
+  background: #a88c4d !important;
+  margin-bottom: -40px !important;
+}
+.footer-block__heading {
+  font-weight: 600 !important;
+}
+.list-unstyled {
+  font-weight: 900 !important;
+}
+.footer-block__details-content {
+  font-weight: 900 !important;
+}
+
+
+Hi Pierre, Please give me email and password for SMTP configration.
+
+Testimonial 1
+
+
+thollingsworth08@gmail.com
+
+https://www.tripadvisor.it/Attraction_Review-g187791-d23912311-Reviews-Roman_Guides-Rome_Lazio.html
+elfsight
+
+Homepage - What We Do Section – can you make the amount of spacing consistent between the icons and the text. (done)
+Homepage – can you remove CAPS for the words  “LOOKING FOR A RELIABLE IT MANAGED SERVICES PROVIDER IN NYC?” and keep on 1 line. (Done)
+
+
+
+
+
+Contact us Page Form (done)
+Homepage - What We Do Section – can you make the amount of spacing consistent between the icons and the text. (done)
+Homepage – can you remove CAPS for the words  “LOOKING FOR A RELIABLE IT MANAGED SERVICES PROVIDER IN NYC?” and keep on 1 line. (done)
+Footer – Can you fix the menu in the footer – Click on it to see the behavior. (done)
+Footer - Can you remove the fax phone number. (done)
+Mega Menu – Cyber Security – “Digital Forensics and Incident Response (DFIR)”  needs to be on 1 line – You can remove DFIR if needed.(done)
+
+
+info@desiredgetaways.com
+
+
+
+
+
+
+
+
+
+https://ecolemontessorimontreal.com/blogue/mode-de-vie-montessori/
+
+<a href="https://ecolemontessorimontreal.com/en/blog/" target="_blank" rel="noopener">papier.</a>
+
+<a href="https://ecolemontessorimontreal.com/carrieres/emploi-surveillante-ecole-primaire/" target="_blank" rel="noopener">Hollande.</a>
+
+<a href="https://ecolemontessorimontreal.com/blogue/" target="_blank" rel="noopener">environment.</a>
+
+<a href="https://ecolemontessorimontreal.com/en/blog/montessori-education/" target="_blank" rel="noopener">Montessori.</a>
+
+
+
+<a href="https://ecolemontessorimontreal.com/en/blog/montessori-lifestyle/" target="_blank" rel="noopener">happy and flourish.</a>
+
+
+<a href="https://phdigital.ca/blogue/google-performance-max/" target="_blank" rel="noopener">conséquence. </a>
+
+<a href="https://phdigital.ca/category/blogue/" target="_blank" rel="noopener">responsive.  </a>
+
+
+
+
+
+
+
+
+https://desiredgetaways.com/
+
+Professional Travel Planning
+
+http://preview.themeforest.net/item/amping-camp-organizer-wordpress-theme/full_screen_preview/37313373
+https://preview.themeforest.net/item/adventor-travel-wordpress-theme/full_screen_preview/33554129
+
+
+image optimization
+
+78F2858FGCK2
+
+INSERT INTO PROFILES (name,phone,address) VALUES ('Ali','03005514488','North Karachi');
+
+OMGF  8FG CK2
+I Have Checked FTP It Doesn't Show Anything
+
+When The Sun Goes Down Tour
+
+https://drive.google.com/drive/folders/1kLxk7Ohr0h8gq_g4bbfSKxFN5aDNfgIO
+
+
+Tropical Kayak Adventures 
+
+vcervone@candrswflhvac.com
+
+https://www6.rentcentric.com/Client7511/WebCustomer/Widget.aspx
+https://www6.rentcentric.com/Client7511/WebCustomer/WebCustomer.aspx
+
+
+https://www6.rentcentric.com/Client7511/WebCustomer/MobileWebCustomer.aspx#field
+https://www6.rentcentric.com/Client7511/WebCustomer/MobileWebCustomer.aspx#fieldPoint
+
+#0D75CDBD
+
+Possessing a decade-long experience in custom mobile application development spanning a wide range of industries from retail to healthcare and EdTech, we create seamless mobile applications on various platforms that are tailored to your goals and expectations. 
+
+Leave Us Your Info
+
+https://preview.themeforest.net/item/coachzee-appointment-wordpress-theme/full_screen_preview/35861194
+
+
+
+
+
+https://bdevs.net/wp/medidove/appoinment/
+https://bdevs.net/wp/medidove/home-6/
+https://utillz.com/themes/brikk/booking/front-page-geolocation/
+
+
+https://onpointsmiles.com/book-now/
+https://humbersrentacar.es/
+https://carhire.live/
+https://vrumm.com.au/
+
+https://flexexoticrentals.com/product/porsche-macan-s/
+
+
+
+# BEGIN Line too long fix
+<IfModule mod_substitute.c>
+SubstituteMaxLineLength 10M
+</IfModule>
+# END Line too long fix
+
+
+
+<?php
+
+global $wpdb;
+$result = $wpdb->get_results( "SELECT user_login, user_nicename, user_email, user_url FROM wp_users");
+
+echo "<style>";
+echo "body {font-family: Arial;}";
+
+echo ".table_container { padding: 10px 12px 0px 12px;  border: 1px solid #ccc;  }";
+echo ".table_container th { background-color:lightblue; color:white; font-weight:bold; border-left: 1px solid white;}";
+echo "</style></head>";
+echo "<body>";
+
+echo "<div class=\"table_container\"><table>";
+echo "<tr><th style=\"padding-left:10px;\">Login Name</th><th>Name</th><th>Email</th><th>URL</th></tr>";
+foreach ($result as $row) {
+    echo "<tr><td>" . $row->user_login . "</td><td>" . $row->user_nicename . "</td><td>" . $row->user_email . 
+    "</td><td>" .$row->user_url. "</td></tr>" ;
+}
+echo "</table></div>";
+
+?>
+
+
+
+
+
+Send Us A Message
+
+$P$BVSxM6yLPkFvhn/nzhsqsGGz1VIMt61
+
+axisafricasafariscms
+
+admin
+kT,^[hTO4P$!
+
+<table style="width:100%">
+<tr>
+    <td>Alfreds Futterkiste</td>
+    <td>Maria Anders</td>
+    <td>Germany</td>
+  </tr>
+
+  <tr>
+    <td>Alfreds Futterkiste</td>
+    <td>Maria Anders</td>
+    <td>Germany</td>
+  </tr>
+  <tr>
+    <td>Centro comercial Moctezuma</td>
+    <td>Francisco Chang</td>
+    <td>Mexico</td>
+  </tr>
+</table>
+
+
+
+
+
+8885567028
+
+ns1.domaincontrol.com
+ns2.domaincontrol.com
+
+ess villas:
+
+luxuryqrental.com
+808520321 
+1131
+
+
+808520321 
+3138
+
+
+
+Godaddy FTP
+https://pk.godaddy.com/help/upload-files-with-sftp-8940
+
+
+
+How to Active Paypal.
+
+First Set Login
+
+Then go to woocommerce setting
+
+Click On Payment
+
+Enable Paypal
+
+Click On Activate
+
+enter your email and country
+
+then Enter Password.
+
+admin@carhire.live
+
+
+
+Something went wrong. Your change may not have been saved. Please try again. There is also a chance that you may need to manually fix and upload the file over FTP.
+
+
+ATGKfWZYB4DLN1A-Z1PNkyPvnYbPnCQGLX9pJ9t--hmBPC9AkQT8GHOIXJFLMOkCGMl_tlSQyk3YP3H0
+EP71iDN7NuKIL12c7GZxGbGxSt8_Aul99svSnvyxbHhoaN7oua-SAvomPQ5cnbZex_Hs1_Fu66o3JCQg
+
+Experience Car Suites Like Never Before.
+Reserve Now And Get The Best Offer
+Payless 
+
+visechdevelopers@gmail.com
+
+
+https://demo.themovation.com/embark/walking-tours/
+https://demo.themovation.com/embark/museum/
+http://preview.themeforest.net/item/lodz-museum-exhibition-wordpress-theme/full_screen_preview/22796966
+
+@media (max-width: 767px){
+.elementor-element.elementor-products-grid ul.products{ 
+    display:inline !important; 
+}
+    
+.elementor-element .elementor-wc-products .woocommerce[class*=columns-] ul.products li.product { 
+margin: 20px !important;
+} 
+}6349
+
+elementer custom skin
+elementer header footer
+
+<?php
+global $product; 
+$img = wp_get_attachment_url( $product->get_image_id() );
+echo '<img src="'.$img .'">';
+?>
+
+
+add_action( 'woocommerce_single_product_summary', 'my_extra_button_on_product_page', 30 );
+
+function my_extra_button_on_product_page() {
+  global $product;
+  echo '<a href="URL">Extra Button</a>';
+}
+
+
+add_action('woocommerce_after_add_to_cart_button','cmk_additional_button');
+function cmk_additional_button() {
+    echo '<button type="submit" class="button alt">Change me please</button>';
+}
+
+
+add_action( 'woocommerce_after_add_to_cart_button', function() {
+    /**
+     * If you need product data here you can set $product as global
+     * then you can easily access product data through $product object
+     *
+     * global $product;
+     */
+
+    /**
+     * You may have to build product customization link automatically
+     * if the customization link follows same pattern and has product
+     * id then you can store the customization product id in product meta
+     * and retrive that meta using $product->get_meta( '_customization_id' );
+     */
+    $builder_product_link = 'http://builder.alltype.com/';
+    ?>
+
+    <a class="button" href="<?php echo esc_url( $builder_product_link ); ?>"><?php esc_html_e( 'Customize Product', 'text-domain' ); ?></a>
+
+    <?php
+} );
+
+
+.wpforms-field-small wpforms-field-required wpforms-valid{
+    disabled;
+}
+
+
+     <a class="button thickbox" href="https://eliteexoticsgroup.com/Reserve/?product_name='.$product_name.'&product_type=JET">' . __( "Reserve Now " )  . '</a>
+
+    <a class="button thickbox" href="' . esc_url( $product_link ) .'#get">' . __( "Reserve Now " )  . '</a>
+
+    echo ' <div class="Reserve">
+    <a class="button thickbox" href="/reserve-now/">' . __( $current_category."Reserve Now " )  . '</a>
+    </div>';
+
+
+add new button on products in woocommerce
+
+add_action( 'woocommerce_after_shop_loop_item', 'add_loop_custom_button', 1000 );
+function add_loop_custom_button() {
+    global $product;
+
+    $product_link = $product->get_permalink(); // Link to the product (if needed)
+
+    // Define your button link
+    $custom_link = home_url( "/something/" ) ;
+
+    // Output
+    echo '<div class="product_meta wcdp-preview-btn-div">
+    <a class="button thickbox" href="' . esc_url( $product_link ) .'">' . __( "Book Now" )  . '</a>
+    </div>';
+}
+
+wifi
+77197559
+
+flaticon.com
+pxcel.com
+
+
+ add_action('template_redirect','check_if_logged_in');
+function check_if_logged_in()
+{
+    $pageid = 142; // your checkout page id
+    if(!is_user_logged_in() && is_page($pageid))
+    {
+        $url = add_query_arg(
+            'redirect_to',
+            get_permalink($pagid),
+            site_url('/wishlist/') // your my acount url
+        );
+        wp_redirect($url);
+        exit;
+    }
+}
+
+
+(1) description show on shop page
+ echo '<div class="product_meta wcdp-preview-btn-div">
+  
+           function cloudways_short_des_product() {
+         the_excerpt();
+  }
+     add_action( 'woocommerce_after_shop_loop_item_title', 'cloudways_short_des_product', 40 );
+
+
+(2) description show on shop page
+function woocommerce_after_shop_loop_item_title_short_description() {
+    global $product;
+    if ( ! $product->get_short_description() ) return;
+    ?>
+<div class="product_meta wcdp-preview-btn-div"></div>
+    <div itemprop="description" class="description">
+        <hr>
+        <?php echo apply_filters( 'woocommerce_short_description', $product->get_short_description() ) ?>
+        <hr>
+    </div>
+     <div class="product_meta wcdp-preview-btn-div">
+</div>
+    <?php
+}
+add_action('woocommerce_after_shop_loop_item_title', 'woocommerce_after_shop_loop_item_title_short_description', 5);
+ 
+
+ background-color: #F4F8FE;
+
+Av. 12 de Octubre and Luis Cardero, World Trade Center Building, Torre B, Of. 206
+ 
+
+ https://ngi-realestate.com/
+ https://calductcleaning.com/
+ https://jgmp.org/
+ https://globalbusinessmagazine.net/
+ http://www.niftyfinancing.com/
+
+ usamaoff796@gmail.com
+info@rentaride.agency
+
+
+
+/setwelcome Hi {first}, new members! A warm welcome to {chatname} community! 
+
+CLG is a Blockchain backed eSports portal that will allow individual players and teams to earn rewards in the form of CLG Treasure Chest while competing in their favorite games
+
+Please note that the rules are inclusive of this but not exclusive to this.
+
+♦️ Rules & Guidelines
+
+ (https://telegra.ph/RULES--GUIDELINES-12-20) OFFICIAL LINKS:
+
+🕸 Website
+ (https://cryptoleaguegaming.com/) 🐦 Twitter
+ (https://twitter.com/esports_clg/) 🗣 Telegram chat
+ (https://t.me/esports_clg) 🚨 Announcement channel
+ (https://t.me/cryptoleaguegaming) 🧾 Medium
+
+ (https://cryptoleaguegaming.medium.com/)⚠️ IMPORTANT: Please note that admins may ban with no prior warnings, explanation or duration period.
+
+Telegraph (https://telegra.ph/RULES--GUIDELINES-12-20)
+RULES & GUIDELINES
+1. Introduce yourself to the group! When new members join, welcome them! 2. Be respectful to each other's thoughts and opinions. We will not tolerate any insults, racism, harassm
+
+
+/lock url
+/unlock url
+/lock forward
+/unlock forward
+/setflood 5
+/cleanwelcome yes
+
+
+
+Holy Grails
+    
+Nike Off  White
+Supreme
+Takashi
+Travis Scott
+
+
+
+
+/**
+ * Add Remove button to WooCommerce checkout page - cart items  
+ */ 
+
+add_filter('woocommerce_cart_item_name', 'njengah_filter_wc_cart_item_remove_link', 10, 3);
+
+function njengah_filter_wc_cart_item_remove_link($product_name, $cart_item, $cart_item_key)
+{
+  
+    if (is_checkout()) {
+
+        $product_name .= apply_filters('woocommerce_cart_item_remove_link', sprintf(
+            '<a href="%s" rel="nofollow" class="remove-icon" style="float:left;">x</a>',
+            esc_url(WC_Cart::get_remove_url($cart_item_key)),
+            __('Remove this item', 'woocommerce'),
+            esc_attr($cart_item['product_id']),
+            esc_attr($cart_item['data']->get_sku())
+        ), $cart_item_key);
+
+        return $product_name;
+    }
+
+}
+
+// add_filter( 'woocommerce_ship_to_different_address_checked', '__return_true' );
+
+.js-marquee-wrapper{
+    width: 100000px;
+    transform: translateX(0px);
+    animation: 20.261s linear 2s infinite normal none running marqueeAnimation-2517099;
+}
+
+muhammadfarhanfarooqui90@gmail.com
+
+
+
+When you purchase a Certified Pre-Owned Mercedes-Benz, you’re getting excellent value, industry-leading coverage, and more. But perhaps the best part of a Certified Pre-Owned Mercedes-Benz is the fact that it’s a Mercedes-Benz. See what’s available near you to join our exclusive family of owners.
+
+It Meets Our Strict Eligibility Requirements
+
+Not just any vehicle will qualify to be Certified Pre-Owned. To even be considered, dealer must ensure that it meets following requirements:
+
+Be less than 6 years old
+Have less than 75,000 miles
+Be serviced according to schedule
+Include a CARFAX® Vehicle History Report
+Save Time and Shop Online
+
+When browsing inventory, look for the exclusive Online Price, and click "Build Your Deal" to get started. We'll help estimate your payment – including trade-in, taxes and fees - fill out a credit application if needed, and even add warranty and maintenance products. You can then quickly and easily finalize your purchase with the dealer.
+
+Our Mercedes S Class Convertible is the perfect luxury vehicle, offering premium features, a business class look and excellent comfort during your trip to Miami. Riding in style, the premium S560 is the outstanding model in Mercedes line-up. The convertible element giving the luxury grand tourer an almost yacht-like presence on the road.
+
+This S Class has a 4.0L V8 Engine and 463 horsepower to really take you to the next level with the driving experience. Its twin exhausts make the car sound exceptional, hitting 0-60 in 4.5 seconds. Plus, when you need it, its sleek design makes it blend in with other Mercedes limousines.
+
+This Mercedes has all the equipment that you could ever ask for including keyless entry and start, large 13” screen, digital instrument cluster and power front seats with lumbar support. It can cater to all your entertainment needs including USB and Bluetooth connectivity. With an opera quality Burmester sound system to play all your road trip playlists. Its navigation can take you to the best bars and restaurants in the area too. Plus, the dual zone climate control keeps you cool in Florida’s hot climate.
+
+You can feel at ease when parking with its reversing camera, plus the long list of safety features with a brake assist system, lane departure warning, lane keep assist, auto headlights, and rain sensing wipers for a stress free experience.
+
+The cruise control also makes driving on the highway super easy and worry free, with the added benefit of blind spot monitoring, one of the many features keeping you and your family safe, so you can enjoy all the sights and events that Florida has to offer.
+
+The pearl white exterior and 19” multi spoke wheels really make the car feel a cut above the rest when visiting clients during your trip. Combining this with its royal blue soft top, it is a truly elegant machine. Imagine yourself cruising down Ocean Drive, jamming to your favorite tracks. There is no better way to get the full Miami experience, with a white on white perforated genuine leather interior.
+
+Its modern engine is great for fuel economy with up to 27mpg on the highway. With an easy 9-speed auto and programmable driving modes and comfortable suspension.
+
+The S-Class is the ultimate German designed and built luxury performance limousine that can take you anywhere in a quiet and refined environment. Or when you want to kick it up a notch, the sport modes can take it to the next level.
+
+The car is cleaned thoroughly before each booking and is properly maintained to leave you with a stress-free driving experience. These highly reliable German engineered machines should leave you with a trouble free trip, if you have any questions please drop us a message and we will be able to assist.
+
+Whether you are coming for a beach vacation, want a luxury shopping in the local malls, or are picking up business partners during your tip, the superior S560 V8 is the perfect all-rounder for business and pleasure – don’t hesitate and book today before availability runs out!
+
+ ATTENTION: WE HAVE VINTAGE BUGGIES, very cool and fun to cruise down the strip. We are the only place in Miami that has them. Please inquire about rates and availability. 
+
+FOREVER MEMORIES TRAVEL
+
+
+
+$price_override = ($this->tm_epo_global_override_product_price == 'no' ? 0 : $this->tm_epo_global_override_product_price == 'yes') 
+          ? 1 : (!empty( $this->tm_meta_cpf['price_override'] ) ? 1 : 0);
+
+
+
+ Start in Cairo and end in Amman! With the In-depth Cultural tour Highlights of Egypt & Jordan, you have a 18 days tour package taking you through Cairo, Egypt and 19 other destinations. Highlights of Egypt & Jordan includes accommodation in a hotel as well as flights, an expert guide, meals, transport and more.
+
+
+
+
+
+
+
+
+ Before planning for your Bali tour, you must know that nowhere on earth will you find a place as diverse and contrast as Bali. The Island of Gods rife with natural beauty has a list of unending idyllic beaches, vivid green terraced rice fields, lush rainforest, and stunning sunsets. The list doesn’t end here as there are so much more to see and experience in this magnificent island paradise! Visitors can expect water-based adventure, stunning temples, creative arts, trekking, yoga, meditation, exotic cuisine and fantastic nightlife here. Going to Bali feels like a never-ending adventure as there is an activity to suit every soul.
+
+The island of Bali might be small in size, but it has plenty of points of interest and incredible things to do, which cannot be covered in a single visit. By knowing the unique offerings of Bali, you can plan a more efficient Bali trip. To help you figure out what to do and where to go, here is a list of some of the island's best highlights.

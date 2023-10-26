@@ -1,0 +1,39 @@
+.ast-woocommerce-container
+{
+padding-top:100px !important;
+}
+
+.content-area .primary
+{
+padding-bottom:100px !important;
+}
+
+.related 
+{
+display:none !important;
+}
+
+.woocommerce-product-gallery
+{
+padding-bottom:100px !important;
+}
+
+.entry-summary
+{
+	padding-bottom:100px !important;
+}
+
+.woocommerce-message
+{
+	display:none !important;
+}
+
+.post-20
+{
+	padding-top:100px !important;
+}
+
+#customer_details
+{
+	padding-bottom:100px !important;
+}

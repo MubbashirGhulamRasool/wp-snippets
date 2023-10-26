@@ -1,0 +1,88 @@
+add_action( 'init', 'woocommerce_clear_cart_url' );
+function woocommerce_clear_cart_url() {
+global $woocommerce;
+
+if ( is_front_page() && isset( $_GET['empty-cart'] ) ) { 
+    $woocommerce->cart->empty_cart(); 
+}
+
+
+
+
+
+
+add_filter('wc_session_expiring', 'so_26545001_filter_session_expiring' );
+
+function so_26545001_filter_session_expiring($seconds) {
+    return 60 * 1
+}
+
+add_filter('wc_session_expiration', 'so_26545001_filter_session_expired' );
+
+function so_26545001_filter_session_expired($seconds) {
+    return 60 * 1
+}
+
+
+
+
+
+
+
+function store_mall_wc_empty_cart_redirect_url() {
+        $url = '/home'; // change this link to your need
+        return esc_url( $url );
+}
+add_filter( 'woocommerce_return_to_shop_redirect', 'store_mall_wc_empty_cart_redirect_url' );
+
+
+add_filter( 'woocommerce_get_price_suffix', 'bbloomer_add_price_suffix', 99, 4 );
+
+
+
+
+
+
+
+
+function store_mall_wc_empty_cart_redirect_url() {
+        $url = get_home_url(); // change this link to your need
+        return esc_url( $url );
+}
+add_filter( 'woocommerce_return_to_shop_redirect', 'store_mall_wc_empty_cart_redirect_url' );
+
+
+add_filter( 'woocommerce_get_price_suffix', 'bbloomer_add_price_suffix', 99, 4 );
+
+
+
+
+
+
+
+add_action( 'wp_head', 'bryce_clear_cart' );
+function bryce_clear_cart() {
+	if ( wc_get_page_id( 'cart' ) == get_the_ID() || wc_get_page_id( 'checkout' ) == get_the_ID() ) {
+		return;
+	}
+	WC()->cart->empty_cart( true );
+}
+
+
+
+
+
+
+
+/**
+ |  * Clears WC Cart on Page Load
+ |  * (Only when not on cart/checkout page)
+ |  */
+ |  
+ | add_action( 'wp_head', 'bryce_clear_cart' );
+ | function bryce_clear_cart() {
+ | if ( wc_get_page_id( 'cart' ) == get_the_ID() || wc_get_page_id( 'checkout' ) == get_the_ID() ) {
+ | return;
+ | }
+ | WC()->cart->empty_cart( true );
+ | }

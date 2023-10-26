@@ -1,0 +1,4 @@
+.ahfb-svg-iconset
+{
+	display:none !important;
+}

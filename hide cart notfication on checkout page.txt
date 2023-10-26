@@ -1,0 +1,4 @@
+.woocommerce-message
+{
+	display:none !important;
+}

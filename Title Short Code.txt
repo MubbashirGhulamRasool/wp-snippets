@@ -1,0 +1,28 @@
+add_action('init' , 'mytitle');
+
+function mytitle()
+{
+	add_shortcode('product_title','title_shortcode');
+}
+
+function title_shortcode( $atts ) {
+
+	//global $product;
+    //$product->get_id();
+	//$product->get_name();
+   // $shortcode_output = "<p>Some shortcode content.</p>";
+   // $shortcode_output .= "<p>More shortcode content.</p>";
+
+    
+	
+	global $product;
+
+// If the WC_product Object is not defined globally
+if ( ! is_a( $product, 'WC_Product' ) ) {
+    $product = wc_get_product( get_the_id() );
+}
+
+
+	return $product->get_name();
+	
+}

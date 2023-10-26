@@ -1,0 +1,10 @@
+.entry-title
+{
+  padding-top:100px !important;
+}
+
+
+.woocommerce-checkout
+{
+  padding-bottom:100px !important;
+}
